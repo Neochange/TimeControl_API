@@ -4,7 +4,8 @@ from django.contrib.auth.models import User
 # Create your models here.
 class TimeBlock(models.Model):
     ssid = models.CharField(max_length=100)
-    user_id = models.ForeignKey(User)
+    user = models.ForeignKey(User,
+                             on_delete=models.DO_NOTHING)
     
     class Meta:
         # managed = False
