@@ -1,0 +1,4 @@
+timecontrolAPI/.idea/*
+timecontrolAPI/api_timecontrol/__pycache__/
+timecontrolAPI/timecontrolAPI/__pycache__/
+timecontrolAPI/api_timecontrol/migrations/__pycache__/
